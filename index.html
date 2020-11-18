@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ToDo List - Yapilacaklar</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>ToDo List</h1>
+
+    <input type="text" id="item_name">
+    <button id="btn_add">Add Item </button>
+    <button id="btn_remove">Remove Last Item</button>
+    <ul id="taskList">
+      <li class="editLi">
+        <input class="item-input" type="text" hidden>
+        <span class="item-text">Go to the football</span> - 
+        <span class="edit" style="color:green">edit </span> 
+        <span class="remove" style="color:red"> delete</span> 
+      </li>  
+      <li class="editLi"> 
+        <input class="item-input" type="text" hidden>
+        <span class="item-text">Go to the market</span> - 
+        <span class="edit btn-group-edit" style="color:green">edit </span > 
+        <span class="save btn-group-save" style="color:green" hidden>save </span > 
+        <span class="remove btn-group-edit" style="color:red"> delete</span> 
+        <span class="cancel btn-group-save" style="color:red" hidden> cancel</span> 
+      </li>  
+
+    </ul>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>
+
+<!--  
+  
+  Event
+  Event Listener
+  Event Trigger
+  Event Handler
+
+ -->
