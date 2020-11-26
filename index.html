@@ -11,15 +11,17 @@
 
     <input type="text" id="item_name">
     <button id="btn_add">Add Item </button>
-    <button id="btn_remove">Remove Last Item</button>
+    <!-- <button id="btn_remove">Remove Last Item</button> -->
     <ul id="taskList">
-      <li class="editLi">
+      <li>
         <input class="item-input" type="text" hidden>
-        <span class="item-text">Go to the football</span> - 
-        <span class="edit" style="color:green">edit </span> 
-        <span class="remove" style="color:red"> delete</span> 
+        <span class="item-text">Go to the market</span> - 
+        <span class="edit btn-group-edit" style="color:green">edit </span > 
+        <span class="save btn-group-save" style="color:green" hidden>save </span > 
+        <span class="remove btn-group-edit" style="color:red"> delete</span> 
+        <span class="cancel btn-group-save" style="color:red" hidden> cancel</span> 
       </li>  
-      <li class="editLi"> 
+      <li> 
         <input class="item-input" type="text" hidden>
         <span class="item-text">Go to the market</span> - 
         <span class="edit btn-group-edit" style="color:green">edit </span > 
