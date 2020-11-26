@@ -158,31 +158,8 @@ const addItem = function (e){
   }
   
 
- // document.getElementById('btn_add').onclick = addItem; // function assign ediyor;
-  //when we click btn or keypress add eventlistener and cal add item function
-  document.getElementById('btn_add').addEventListener('click', addItem); //we call function whne we click btn
-  document.getElementById('item_name').addEventListener('keypress', addItem); //we call function whne we click btn
-
-  for(let i of document.getElementsByClassName('remove')){
-      i.addEventListener('click', removeItem);
-  };
-
-  for(let i of document.getElementsByClassName('edit')){
-    i.addEventListener('click', editItem);
-  };
-
-  for(let i of document.getElementsByClassName('cancel')){
-    i.addEventListener('click', cancelItem);
-  };
-
-  for(let i of document.getElementsByClassName('save')){
-    i.addEventListener('click', saveItem);
-  };
-
-  for(let i of document.getElementsByClassName('item-text')){
-    i.addEventListener('click', completeItem);
-  };
-  
+export {addItem, removeItem, editItem, cancelItem, saveItem, completeItem}
 
 
-// document.querySelectorAll('.remove').addEventListener('click', removeItem);
+
+
